@@ -2,6 +2,9 @@ dist: xenial
 language: bash
 sudo: required
 
+arch:
+  - arm64
+  - amd64
 addons:
   snaps:
    - name: snapcraft
